@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iconLocalhost -->
+    <link rel="icon" href="./image/logo-lining.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- W3 -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- FonAwesomee -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./productShoes.css">
+    <title>NiLing Product</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- banner-x -->
+        <div class="banner-x" id="info">
+            <div class="container header-top d-flex">
+                <div class="col-5">
+                    <img src="./img/logo1.jpg" alt="">
+                    <input type="text" placeholder="Tìm kiếm...">
+                </div>
+                <div class="col-7 d-flex">
+                    <div class="col-4 header-top-icon d-flex align-items-center">
+                        <div><i class="fas fa-phone"></i></div>
+                        <span class="numberPhone">0918401585 (08:00-17:30) </span>
+                    </div>
+                    <div class="col-4 header-top-icon d-flex align-items-center">
+                        <div><i class="fas fa-map-marker-alt"></i></div>
+                        <span>Hệ thống cửa hàng </span>
+                    </div>
+                    <div class="col-4 header-top-icon d-flex align-items-center">
+                        <div class="icon-shoping"><i class="fas fa-shopping-bag"></i></div>
+                        <span> 3 Sản phẩm đã mua</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner-y -->
+        <div class="banner-y" style="display: none;">
+            <div class="container header-top-y d-flex justify-content-between align-items-center">
+                <div class="menuSidebar" onclick="w3_open()">
+                    <span>Menu</span>
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="imgLogo">
+                    <img src="./img/lgChuan.png" alt="">
+                </div>
+                <div class="menuSidebar">
+                    <i class="fas fa-shopping-bag"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- header-navbar -->
+        <div class="container-fluid wrapper px-0" id="onscroll-Event">
+            <div class=" container header-navbar">
+                <ul class="header-navbar_ul d-flex">
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon2.png" alt="">
+                                <img src="./img/icon2-2.gif" alt="">
+                            </div>
+                            <div class="name" data-text="Hàng Mới Về">Hàng Mới về</div>
+                        </a>
+                        <!-- dropdown: Copyright by NNT -->
+                        <ul class="type-product-list-1">
+                            <li class="type-product-item"><a href="#">Quần áo</a> </li>
+                            <li class="type-product-item"><a href="#">Giày dép</a> </li>
+                            <li class="type-product-item"><a href="#">Phụ kiện</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon3.gif" alt=""><img src="./img/icon3-3.gif" alt="">
+                            </div>
+                            <div class="name" data-text="Men">Nam</div>
+                        </a>
+                        <!-- dropdown: Copyright by NNT -->
+                        <ul class="type-product-list-2">
+                            <li class="type-product-item">
+                                <a href="#">Áo nam</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#">Áo Polo nam</a></li>
+                                    <li class="product-child-item"> <a href="#">Áo T-Shirt nam</a></li>
+                                    <li class="product-child-item"> <a href="#">Áo gió nam</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item">
+                                <a href="#">Quần nam</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Quần soóc nam</a></li>
+                                    <li class="product-child-item"> <a href="#"> Quần gió nam</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item">
+                                <a href="#">Giày nam</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Sản phẩm đặc biệt nam</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày Life Style nam</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày chạy bộ nam</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày cầu lông nam</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày bóng rổ nam</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày Kids nam</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="type-product-item">
+                                <a href="#">Phụ kiện nam</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Túi - Ba lô</a></li>
+                                    <li class="product-child-item"> <a href="#"> Mũ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Tất</a></li>
+                                    <li class="product-child-item"> <a href="#"> Quần lót thể thao</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item"></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon4.gif" alt=""><img src="./img/icon4-4.gif" alt="">
+                            </div>
+                            <div class="name" data-text="Women">Nữ</div>
+                        </a>
+                        <!-- dropdown: Copyright by NNT -->
+                        <ul class="type-product-list-2">
+                            <li class="type-product-item">
+                                <a href="#">Áo nữ</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#">Áo Polo nữ</a></li>
+                                    <li class="product-child-item"> <a href="#">Áo T-Shirt nữ</a></li>
+                                    <li class="product-child-item"> <a href="#">Áo bra nữ</a></li>
+                                    <li class="product-child-item"> <a href="#">Áo gió nữ</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item">
+                                <a href="#">Quần nữ</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Quần soóc nữ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Quần bó nữ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Quần gió nữ</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item">
+                                <a href="#">Giày nữ</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Sản phẩm đặc biệt nữ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày Life Style nữ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày chạy bộ nữ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày cầu lông nữ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày Kids nữ</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="type-product-item">
+                                <a href="#">Phụ kiện nữ</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Mũ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Tất</a></li>
+                                    <li class="product-child-item"> <a href="#"> Túi - Ba lô</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item"></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon5.gif" alt=""><img src="./img/icon5-5.gif" alt="">
+                            </div>
+                            <div class="name" data-text="Sport">Thể Thao</div>
+                        </a>
+                        <!-- dropdown: Copyright by NNT -->
+                        <ul class="type-product-list-2">
+                            <li class="type-product-item">
+                                <a href="#">Cầu lông</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#">Vợt cầu lông</a></li>
+                                    <li class="product-child-item"> <a href="#">Áo nam</a></li>
+                                    <li class="product-child-item"> <a href="#">Áo nữ</a></li>
+                                    <li class="product-child-item"> <a href="#">Giày nam</a></li>
+                                    <li class="product-child-item"> <a href="#">Giày nữ</a></li>
+                                    <li class="product-child-item"> <a href="#">Quần nam</a></li>
+                                    <li class="product-child-item"> <a href="#">Quần nữ</a></li>
+                                    <li class="product-child-item"> <a href="#">Phụ kiện</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item">
+                                <a href="#">Bóng rổ</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Áo</a></li>
+                                    <li class="product-child-item"> <a href="#"> Quần</a></li>
+                                    <li class="product-child-item"> <a href="#"> Giày</a></li>
+                                    <li class="product-child-item"> <a href="#">Phụ kiện</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item">
+                                <a href="#">Chạy bộ</a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Giày nam</a></li>
+                                    <li class="product-child-item"> <a href="#">Giày nữ</a></li>
+                                    <li class="product-child-item"> <a href="#"> Áo</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="type-product-item">
+                                <a href="#">Yoga-finess </a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Áo</a></li>
+                                    <li class="product-child-item"> <a href="#"> Phụ kiện</a></li>
+                                </ul>
+                            </li>
+                            <li class="type-product-item">
+                                <a href="#">Bóng đá </a>
+                                <ul class="product-child-list">
+                                    <li class="product-child-item"> <a href="#"> Giày</a></li>
+                                    <li class="product-child-item"> <a href="#"> Phụ kiện</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon6.gif" alt=""><img src="./img/icon6-6.gif" alt="">
+                            </div>
+                            <div class="name" data-text="sale">SUPER SAlE</div>
+                        </a>
+                        <!-- dropdown: Copyright by NNT -->
+                        <ul class="type-product-list-1">
+                            <li class="type-product-item"><a href="#">Giày dép</a> </li>
+                            <li class="type-product-item"><a href="#">Quần áo hè</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon7.gif" alt=""><img src="./img/icon7-7.gif" alt="">
+                            </div>
+                            <div class="name" data-text="Streetwear">Streetwear</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon8.gif" alt=""><img src="./img/icon8-8.gif" alt="">
+                            </div>
+                            <div class="name" data-text="system">Hệ Thống Cử Hàng</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon9.gif" alt=""><img src="./img/icon9-9.gif" alt="">
+                            </div>
+                            <div class="name" data-text="News">Tin Tức</div>
+                        </a>
+                        <!-- dropdown: Copyright by NNT -->
+                        <ul class="type-product-list-1">
+                            <li class="type-product-item"><a href="#">Tin sự kiện</a> </li>
+                            <li class="type-product-item"><a href="#">Tin khuyến mãi</a> </li>
+                            <li class="type-product-item"><a href="#">Tin tuyển dụng</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="./img/icon10.gif" alt=""><img src="./img/icon10-10.gif" alt="">
+                            </div>
+                            <div class="name" data-text="recruitment">Tuyển Dụng</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- sideBar -->
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+            <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+        
+        <!-- slideShow -->
+        <div class="slideShow container">
+            <div class="owl-carousel slideShow-all">
+                <div class="item">
+                    <img class="bgr img-fluid" src="./Slide/4.jpg" alt="a">
+                </div>
+                <div class="item">
+                    <img class="bgr img-fluid" src="./Slide/5.jpg" alt="a">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container main-product d-flex justify-content-between align-items-center">
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <div class="row">
+                        <div class="col-2 small-product">
+                            <div>
+                                <div class="thumbnail-item">
+                                    <img src="./ImgDanne/prd10.jpg" alt="" class="small-img">
+                                </div>
+                                <div class="thumbnail-item">
+                                    <img src="./ImgDanne/prd11.jpg" alt="" class="small-img">
+                                </div>
+                                <div class="thumbnail-item">
+                                    <img src="./ImgDanne/prd12.jpg" alt="" class="small-img">
+                                </div>
+                                <div class="thumbnail-item">
+                                    <img src="./ImgDanne/prd13.jpg" alt="" class="small-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10 product-img-wrap">
+                            <div class="product-img-room">
+                                <img src="./ImgDanne/prd10.jpg" alt="" id="product-img">
+                            </div>
+                            <div id="myresult" class="img-zoom-result"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6=12">
+                    <div class="product-content">
+                        <h2>Giày chạy bộ nam ARHR041-3</h2>
+                        <p>Thương hiệu: Li-Ning | Mã SP: ARHR041-3</p>
+                        <div class="product-price">
+                            2,390,000₫
+                        </div>
+                        <div class="product-describe">
+                            <p>Giày chạy bộ thể thao nam Li-Ning ARHR041-3</p>
+                            <ul>
+                                <li>Thiết kế chuyên dụng, hỗ trợ tối ưu các hoạt động tập luyện thể thao</li>
+                                <li>Vải lưới cao cấp, có độ bền cao, có hệ thống lỗ thoát khí</li>
+                                <li>Công nghệ khử mùi, thoáng khí</li>
+                                <li>Kết cấu đế siêu nhẹ để tạo lực đẩy và lực nâng tối ưu cho lòng bàn chân</li>
+                            </ul>
+                        </div>
+                        <div class="product-color">
+                            <p>Màu Sắc</p>
+                            <div class="product-color-bgr">
+                                <label class="bgr-img">
+                                    <span>Đen</span>
+                                    <img src="./icon/iconv.jpg" alt="">
+                                </label>
+
+                            </div>
+                        </div>
+                        <div class="product-material">
+                            <p>Vật liệu</p>
+                            <div class="material">
+                                <span>Tổng Hợp</span>
+                                <img src="./icon/iconv.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product-size">
+                            <p>Kích Thước</p>
+                            <label class="product-size_label">
+                                <input type="checkbox" name="">
+                                <div class="item-size">
+                                    <p>S</p>
+                                    <img class="item-size-v" src="./icon/iconv.jpg" alt="">
+                                </div>
+                            </label>
+                            <label class="product-size_label">
+                                <input type="checkbox" name="">
+                                <div class="item-size">
+                                    <p>M</p>
+                                    <img class="item-size-v" src="./icon/iconv.jpg" alt="">
+                                </div>
+                            </label>
+                            <label class="product-size_label">
+                                <input type="checkbox" name="">
+                                <div class="item-size">
+                                    <p>L</p>
+                                    <img class="item-size-v" src="./icon/iconv.jpg" alt="">
+                                </div>
+                            </label>
+                            <label class="product-size_label">
+                                <input type="checkbox" name="">
+                                <div class="item-size">
+                                    <p>XL</p>
+                                    <img class="item-size-v" src="./icon/iconv.jpg" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <h6 style="font-weight: 500;"> Hotline hỗ trợ : 0918401585 (08:00-17:30) |</h6>
+                        <div class="product-amount">
+                            <p>Số lượng</p>
+                            <div class="amount-wrap d-flex justify-content-center">
+                                <div class="amount d-flex  align-items-center">
+                                    <button class="btn-amount-am">
+                                        <div class="amount-am"></div>
+                                    </button>
+                                    <input class="amount-input" type="" value="1" min="1">
+                                    <button class="btn-amount-duong">
+                                        <div class="amount-duong"></div>
+                                        <div class="amount-duong2"></div>
+                                    </button>
+                                </div>
+                                <div type="button" class="add-product btn btn-info btn-lg" data-toggle="modal"
+                                    data-target="#myModal">Thêm Giỏ Hàng</div>
+                            </div>
+                            <p>"Quý khách lưu ý vui lòng chọn đúng size, cỡ, màu trước khi cho vào giỏ hàng.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid product-lienquan">
+                    <div class="container product-related-wrap">
+                        <div class="related-h4">Sản phẩm liên quan</div>
+                        <div class="product-related-all">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container product-related-wrap">
+                        <div class="related-h4">Sản phẩm liên quan</div>
+                        <div class="product-related-all">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 product-related">
+                                    <div class="related-shoes">
+                                        <img src="./ImgDanne/prd13.jpg" alt="">
+                                        <div class="related-detail">Xem Chi Tiết</div>
+                                    </div>
+                                    <div class="related-title-shoes">
+                                        <p>Giày chạy bộ nam</p>
+                                        <p class="shoes-pice">1,900,000 Đ</p>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="login-icon">
+                            <i class="far fa-user"></i>
+                        </div>
+                        <div class="login-p">
+                            <p>Create an account to expedite future checkouts, track order
+                                <br> history & receive emails,
+                                discounts, & special offers
+                            </p>
+                        </div>
+                        <div class="login-form">
+                            <input type="text" placeholder="username">
+                        </div>
+                        <div class="login-form1">
+                            <input type="password" placeholder="password?">
+                        </div>
+                        <div class="remember-pass">
+                            <div class="remember">
+                                <div class="remember-span"></div>
+                                <p>Remember me</p>
+                            </div>
+                            <div class="pass ">
+                                <p>Lost your password?</p>
+                            </div>
+                        </div>
+                        <div class="login">LOGIN</div>
+                        <div class="spec">
+                            <span>OR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </main>
+    
+
+    <footer>
+        <div class="container footer-all">
+            <div class="row d-flex">
+                <div class="col-lg-3 col-md-12 order-1">
+                    <div class="foodter-contact" style="margin-top: -10px" >
+                        <h4 style="font-size: 16px;">LI NING SPORT VIỆT NAM</h4>
+                        <div class="contact-address">
+                            Địa chỉ: Công ty TNHH Quốc tế Hải Long - Số 19,
+                            Lô 12A Trung Yên 10, KĐT Trung Yên, Trung Hòa,
+                            Cầu Giấy, Hà Nội
+                        </div>
+                        <div class="contact-tel">
+                            Hotline : 0918401585 (08:00-17:30)
+                        </div>
+                        <div class="contact-email">
+                            Từ thứ 2 đến thứ 6 (thứ 7, chủ nhật, ngày lễ
+                            nghỉ) info.liningvn@gmail.com
+                        </div>
+                        <img class="logobocongthuong" src="img-footer/logobocongthuong.png" alt="logobocongthuong">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-4  order-2">
+                    <ul class="sales-policy">
+                        <h3>CHÍNH SÁCH BÁN HÀNG</h3>
+                        <li>
+                            <a>Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a>Hệ thống cửa hàng</a>
+                        </li>
+                        <li>
+                            <a>Điều khoản dịch vụ</a>
+                        </li>
+                        <li>
+                            <a>Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a>Hướng dẫn mua hàng online</a>
+                        </li>
+                        <li>
+                            <a>Chính sách thanh toán</a>
+                        </li>
+                        <li>
+                            <a>Vận chuyển</a>
+                        </li>
+                        <li>
+                            <a>Quy định đổi trả hàng online</a>
+                        </li>
+                        <li>
+                            <a>Quy định đổi sản phẩm mua tại cửa hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-4 order-2">
+                    <div class="foodter-sign-in">
+                        <h3>ĐĂNG KÝ NHẬN TIN</h3>
+                        <p class="sign-up-for">
+                            Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm tri ân khách hàng. Để có
+                            thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới
+                            đây.
+                        </p>
+                        <div class="onerow d-flex justify-content-between">
+                            <input type="email" class="input-email col-8" placeholder="Nhập địa chỉ email của bạn...">
+                            <button type="submit" class="send col-4">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-4 order-2">
+                    <div class="like-page">
+                        <h3>FANPAGE</h3>
+                        <img class="img-like-page" src="./img-footer/bgrchuanvcl.jpg" alt="">
+                        <div class="clearfix">
+                            <a class="float" href="https://www.facebook.com/LiningSportVietnam/">
+                                <img class="footer-logo-lining" src="img-footer/footer-logo-lining.png">
+                            </a>
+                            <div class="lfloat">
+                                <div class="link-facebook">
+                                    <a href="https://www.facebook.com/LiningSportVietnam/">
+                                        Li-Ning Vietnam
+                                    </a>
+                                </div>
+                                <div class="like-page-196">196K lượt thích</div>
+                            </div>
+                        </div>
+                        <div class="outer-wrap">
+                            <div class="pluginConnectButton">
+                                <a role="button" class="button-like-page" title=""
+                                    href="https://www.facebook.com/LiningSportVietnam/" target="_blank">
+                                    <i style="font-size: 14px;" class="fab fa-facebook-square"></i>
+                                    Thích Trang
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-full ">
+        <div class="foodter-wrap d-flex justify-content-between">
+            <div class="col-4"></div>
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <a href="https://www.facebook.com/LiningSportVietnam/">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/liningsportvietnam">
+                    <div class="icon">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/channel/UC3piyQCBYTFLMcgrsFnBWFQ/featured">
+                    <div class="icon">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 d-flex justify-content-end">
+                <span class="copyright">© 2018 LI-NING</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="./app.js"></script>
+
+<script>
+    let productImg = document.getElementById("product-img");
+    let smallImg = document.getElementsByClassName("small-img");
+    smallImg[0].onclick = function () {
+        // mỗi lần click thì xóa len của cái cũ đi
+        deleteImageZoom();
+        productImg.src = smallImg[0].src;
+        //lấy cái id ảnh của mình truyền vào
+        imageZoom("product-img", "myresult");
+    }
+    smallImg[1].onclick = function () {
+        // mỗi lần click thì xóa len của cái cũ đi
+        deleteImageZoom();
+        productImg.src = smallImg[1].src;
+        imageZoom("product-img", "myresult");
+    }
+    smallImg[2].onclick = function () {
+        // mỗi lần click thì xóa len của cái cũ đi
+        deleteImageZoom();
+        productImg.src = smallImg[2].src;
+        imageZoom("product-img", "myresult");
+    }
+    smallImg[3].onclick = function () {
+        // mỗi lần click thì xóa len của cái cũ đi
+        deleteImageZoom();
+        productImg.src = smallImg[3].src;
+        imageZoom("product-img", "myresult");
+    }
+</script>
+<script>
+    function imageZoom(imgID, resultID) {
+        var img, lens, result, cx, cy;
+        img = document.getElementById(imgID);
+        result = document.getElementById(resultID);
+        /*create lens:*/
+        lens = document.createElement("DIV");
+        lens.setAttribute("class", "img-zoom-lens");
+        /*insert lens:*/
+        img.parentElement.insertBefore(lens, img);
+        /*calculate the ratio between result DIV and lens:*/
+        cx = result.offsetWidth / lens.offsetWidth;
+        cy = result.offsetHeight / lens.offsetHeight;
+        /*set background properties for the result DIV:*/
+        result.style.backgroundImage = "url('" + img.src + "')";
+        result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
+        /*execute a function when someone moves the cursor over the image, or the lens:*/
+        lens.addEventListener("mousemove", moveLens);
+        img.addEventListener("mousemove", moveLens);
+        /*and also for touch screens:*/
+        lens.addEventListener("touchmove", moveLens);
+        img.addEventListener("touchmove", moveLens);
+        function moveLens(e) {
+            var pos, x, y;
+            /*prevent any other actions that may occur when moving over the image:*/
+            e.preventDefault();
+            /*get the cursor's x and y positions:*/
+            pos = getCursorPos(e);
+            /*calculate the position of the lens:*/
+            x = pos.x - (lens.offsetWidth / 2);
+            y = pos.y - (lens.offsetHeight / 2);
+            /*prevent the lens from being positioned outside the image:*/
+            if (x > img.width - lens.offsetWidth) { x = img.width - lens.offsetWidth; }
+            if (x < 0) { x = 0; }
+            if (y > img.height - lens.offsetHeight) { y = img.height - lens.offsetHeight; }
+            if (y < 0) { y = 0; }
+            /*set the position of the lens:*/
+            lens.style.left = x + "px";
+            lens.style.top = y + "px";
+            /*display what the lens "sees":*/
+            result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
+        }
+        function getCursorPos(e) {
+            var a, x = 0, y = 0;
+            e = e || window.event;
+            /*get the x and y positions of the image:*/
+            a = img.getBoundingClientRect();
+            /*calculate the cursor's x and y coordinates, relative to the image:*/
+            x = e.pageX - a.left;
+            y = e.pageY - a.top;
+            /*consider any page scrolling:*/
+            x = x - window.pageXOffset;
+            y = y - window.pageYOffset;
+            return { x: x, y: y };
+        }
+
+    }
+    //code xoá phần lens cũ 
+    function deleteImageZoom() {
+        let len = document.querySelector(".img-zoom-lens");
+        len.remove();
+        console.log(len);
+    }
+</script>
+<script>
+    // Initiate zoom effect:
+    imageZoom("product-img", "myresult");
+</script>
+
+</html>
